@@ -1,0 +1,116 @@
+@media screen and (max-width: 767px){
+    .price-title{
+        text-align: center;
+        margin-bottom: 19px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .price-line{
+        border-top: 3px solid #4528DC;
+        width: 142px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .price-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #565656;
+        margin-top: 16px;
+        margin-bottom: 33px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .price-box{
+        width: 300px;
+        background-color: #ffffff;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        margin: auto;
+        padding-top: 33px;
+        padding-bottom: 33px;
+        padding-left: 41px;
+        padding-right: 41px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .price-box-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #565656;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .price-box-price{
+        color: #4528DC;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .price-box-dolar{
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .price-list-item{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #565656;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .price-list-border{
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .price-list{
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .price-btn{
+        
+        color: #ffffff;
+        background-color: #4528DC;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        border-radius: 4px;
+        display: block;
+        width: 80px;
+        text-align: center;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .price-box-1{
+        margin-bottom: 30px;
+    }
+}

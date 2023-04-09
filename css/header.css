@@ -1,0 +1,117 @@
+@media screen and (max-width: 767px){
+    .header-img{
+        display: block;
+        width: 240px;
+        margin: 0 auto;
+        margin-top: 41px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px){
+    .header-img{
+        display: block;
+        width: 280px;
+        margin-right: 74px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1599px){
+    .header-position{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-position{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media screen and (max-width: 1599px) {
+    h1{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.06em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header-title-app{
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .p-header {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        margin-top: 0;
+        margin-bottom: 41px;
+    }
+    
+    h2 {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+}
+
+
+@media screen and (max-width: 1599px) {
+    .header-list{
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        display: flex;
+    }
+
+    .header-list-item-1{
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+
+        border: 1px solid #ffffff;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 35px;
+        padding-left: 35px;
+        border-radius: 4px;
+        margin-right: 41px;
+    }
+
+    .header-list-item-2 {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    
+        border: 1px solid #ffffff;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 44px;
+        padding-left: 44px;
+        border-radius: 4px;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px){
+    .header-list-item-1{
+        margin-right: 30px;
+    }
+}
+
+
